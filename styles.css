@@ -1,4 +1,24 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.logo-left {
+    color: #4D5AE5;
+}
+
+.logo-right {
+    color: #2E2F42;
+}
+
+.main-headline {
+    font-weight: 700;
+}
