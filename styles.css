@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 400;
 }
 
 .logo {
@@ -19,4 +18,11 @@ body {
 
 .main-headline {
     font-weight: 700;
+}
+
+button {
+    width: 105px;
+    height: 24px;
+    background: #4D5AE5;
+    color: #FFFFFF;
 }
