@@ -21,8 +21,12 @@ body {
 }
 
 button {
-    width: 105px;
-    height: 24px;
+    width: 169px;
+    height: 56px;
     background: #4D5AE5;
     color: #FFFFFF;
+}
+
+button:hover {
+    background: #404BBF;
 }
