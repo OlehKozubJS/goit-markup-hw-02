@@ -25,6 +25,7 @@ button {
     height: 56px;
     background: #4D5AE5;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 button:hover {
