@@ -77,6 +77,21 @@ body {
     color: #E7E9FC;
 }
 
+.filter-button {
+    width: 116px;
+    height: 48px;
+    font-weight: 500;
+    line-height: 150%;
+    background: #F4F4FD;
+    color: #4D5AE5;
+}
+
+.filter-button:active {
+    width: 69px;
+    background: #404BBF;
+    color: white;
+}
+
 /*
 
 
