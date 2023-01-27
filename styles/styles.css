@@ -78,8 +78,6 @@ body {
 }
 
 .filter-button {
-    width: 116px;
-    height: 48px;
     font-weight: 500;
     line-height: 150%;
     background: #F4F4FD;
@@ -87,7 +85,6 @@ body {
 }
 
 .filter-button:active {
-    width: 69px;
     background: #404BBF;
     color: white;
 }
