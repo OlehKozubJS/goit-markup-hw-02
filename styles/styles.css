@@ -17,8 +17,17 @@ body {
     color: #2E2F42;
 }
 
+.contacts a:hover, .contacts a:focus {
+    color: #404BBF;
+}
+
+.main-section {
+    background-color: #2E2F42;
+}
+
 .main-headline {
     font-weight: 700;
+    color: white;
 }
 
 .order-service-button {
@@ -33,6 +42,12 @@ body {
     background: #404BBF;
 }
 
-.contacts a:hover, .contacts a:focus {
-    color: #404BBF;
+.section-headline, .item-headline {
+    color: #2E2F42;
 }
+
+/*
+
+    color: #2E2F42;
+
+*/
