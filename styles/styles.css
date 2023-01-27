@@ -1,3 +1,12 @@
+:root {
+    --button-clr: #4D5AE5;
+    --active-hover-clr: #404BBF;
+    --headline-clr: #2E2F42;
+    --common-text-clr: #434455;
+    --accent-footer-text-clr: #E7E9FC;
+    --light-backgrounds-clr: #F4F4FD;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
