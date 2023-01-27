@@ -21,7 +21,7 @@ body {
     font-weight: 700;
 }
 
-button {
+.order-service-button {
     width: 169px;
     height: 56px;
     background: #4D5AE5;
@@ -29,6 +29,10 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.order-service-button:hover {
     background: #404BBF;
+}
+
+.contacts a:hover, .contacts a:focus {
+    color: #404BBF;
 }
