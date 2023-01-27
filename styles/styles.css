@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #434455;
 }
 
@@ -13,20 +14,30 @@ body {
     color: #4D5AE5;
 }
 
-.logo-right {
+.logo-right-header {
     color: #2E2F42;
 }
 
-.contacts a:hover, .contacts a:focus {
+.logo-right-footer {
+    color: #F4F4FD;
+}
+
+.navigation a {
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.navigation a:hover, .contacts a:hover, .contacts a:focus {
     color: #404BBF;
 }
 
-.main-section {
+.main-section, .footer-section {
     background-color: #2E2F42;
 }
 
 .main-headline {
     font-weight: 700;
+    line-height: 107%;
     color: white;
 }
 
@@ -34,6 +45,8 @@ body {
     width: 169px;
     height: 56px;
     background: #4D5AE5;
+    font-weight: 500;
+    line-height: 150%;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -42,12 +55,30 @@ body {
     background: #404BBF;
 }
 
+.section-headline {
+    font-weight: 700;
+    line-height: 111%;
+}
+
+.item-headline {
+    font-weight: 500;
+    line-height: 120%;
+}
+
 .section-headline, .item-headline {
     color: #2E2F42;
 }
 
+.text {
+    line-height: 150%;
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
+
 /*
 
-    color: #2E2F42;
+
 
 */
