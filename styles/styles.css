@@ -91,7 +91,7 @@ body {
     color: var(--button-clr);
 }
 
-.filter-button:active {
+.filter-button:hover, .filter-button:focus {
     background: var(--active-hover-clr);
     color: #FFFFFF;
 }
