@@ -71,6 +71,12 @@ li {
     color: var(--hover-focus-clr);
 }
 
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--hover-focus-clr);
+    text-decoration: underline;
+}
+
 
 /* Button settings */
 
