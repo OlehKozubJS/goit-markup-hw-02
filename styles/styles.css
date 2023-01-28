@@ -54,6 +54,7 @@ body {
     background: var(--button-clr);
     font-weight: 500;
     line-height: 150%;
+    border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -87,7 +88,9 @@ body {
 .filter-button {
     font-weight: 500;
     line-height: 150%;
-    background: #F4F4FD;
+    background: var(--light-backgrounds-clr);
+    border: 1px solid var(--accent-and-footer-text-clr);
+    border-radius: 4px;
     color: var(--button-clr);
 }
 
