@@ -2,7 +2,7 @@
 
 :root {
     --button-clr: #4D5AE5;
-    --active-hover-clr: #404BBF;
+    --hover-focus-clr: #404BBF;
     --common-text-clr: #434455;
     --headline-clr: #2E2F42;
     --light-backgrounds-clr: #F4F4FD;
@@ -67,29 +67,29 @@ body {
 .contact-link:hover,
 .contact-link:focus,
 .navigation-link.current-page  {
-    color: var(--active-hover-clr);
+    color: var(--hover-focus-clr);
 }
 
 
 /* Button settings */
 
 button {
+    font-family: inherit;
     font-weight: 500;
-    line-height: 150%;
+    line-height: inherit;
     border-radius: 4px;
     letter-spacing: 0.04em;
     cursor: pointer;
-    font-family: inherit;
-}
-
-.order-service-button:hover,
-.order-service-button:focus {
-    background: var(--active-hover-clr);
 }
 
 .order-service-button {
     background: var(--button-clr);
     color: #FFFFFF;
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+    background: var(--active-hover-clr);
 }
 
 .filter-button {
@@ -100,12 +100,12 @@ button {
 
 .filter-button:hover,
 .filter-button:focus {
-    background: var(--active-hover-clr);
+    background: var(--hover-focus-clr);
     color: #FFFFFF;
 }
 
 
-/* Headline settings */
+/* Main headline settings */
 
 .main-headline {
     font-size: 56px;
@@ -148,6 +148,7 @@ button {
 .hero-section {
     background: var(--light-backgrounds-clr);
 } 
+
 
 /* Card settings */
 
