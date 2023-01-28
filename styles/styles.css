@@ -9,14 +9,6 @@
     --accent-and-footer-text-clr: #E7E9FC;
 }
 
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
 
 /* Common style settings */
 
@@ -27,6 +19,14 @@ body {
     letter-spacing: 0.02em;
     line-height: 150%;
     color: var(--common-text-clr);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 
