@@ -61,13 +61,14 @@ li {
 
 .contact-link {
     color: inherit;
+    font-style: normal;
 }
 
 .navigation-link:hover,
 .navigation-link:focus,
 .contact-link:hover,
 .contact-link:focus,
-.navigation-link.current-page  {
+.navigation-link.current-page {
     color: var(--hover-focus-clr);
 }
 
