@@ -1,3 +1,5 @@
+/* Color variables */
+
 :root {
     --button-clr: #4D5AE5;
     --active-hover-clr: #404BBF;
@@ -7,16 +9,25 @@
     --accent-and-footer-text-clr: #E7E9FC;
 }
 
+
+/* Common style settings */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 150%;
     color: var(--common-text-clr);
 }
+
+
+/* Logo settings */
 
 .logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
+    letter-spacing: 0.03em;
 }
 
 .logo-left {
@@ -31,18 +42,65 @@ body {
     color: var(--light-backgrounds-clr);
 }
 
+
+/* Navigation and contacts settings */
+
 .navigation a {
     font-weight: 500;
-    color: var(--button-clr);
+    color: var(--headline-clr);
 }
 
-.navigation a:hover, .contacts a:hover, .contacts a:focus {
+.contacts a {
+    color: inherit;
+}
+
+.current-page {
+    color: red;
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.contacts a:hover,
+.contacts a:focus {
     color: var(--active-hover-clr);
 }
 
-.main-section, .footer-section {
-    background-color: var(--headline-clr);
+
+/* Button settings */
+
+button {
+    font-weight: 500;
+    line-height: 150%;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-family: inherit;
 }
+
+.order-service-button:hover,
+.order-service-button:focus {
+    background: var(--active-hover-clr);
+}
+
+.order-service-button {
+    background: var(--button-clr);
+    color: #FFFFFF;
+}
+
+.filter-button {
+    background: var(--light-backgrounds-clr);
+    border: 1px solid var(--accent-and-footer-text-clr);
+    color: var(--button-clr);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background: var(--active-hover-clr);
+    color: #FFFFFF;
+}
+
+
+/* Headline settings */
 
 .main-headline {
     font-weight: 700;
@@ -50,57 +108,41 @@ body {
     color: #FFFFFF;
 }
 
-.order-service-button {
-    background: var(--button-clr);
-    font-weight: 500;
-    line-height: 150%;
-    border-radius: 4px;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.order-service-button:hover {
-    background: var(--active-hover-clr);
-}
-
 .section-headline {
     font-weight: 700;
     line-height: 111%;
 }
 
-.item-headline {
+.card-headline {
     font-weight: 500;
     line-height: 120%;
 }
 
-.section-headline, .item-headline {
+.section-headline,
+.card-headline {
     color: var(--headline-clr);
 }
 
-.text {
-    line-height: 150%;
+
+/* Sections and cards settings */
+
+.main-section, .footer-section {
+    background-color: var(--headline-clr);
 }
 
 .footer-text {
     color: var(--accent-and-footer-text-clr);
 }
 
-.filter-button {
-    font-weight: 500;
-    line-height: 150%;
+.hero-section {
     background: var(--light-backgrounds-clr);
+} 
+
+.hero-card {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.product-card {
     border: 1px solid var(--accent-and-footer-text-clr);
-    border-radius: 4px;
-    color: var(--button-clr);
 }
-
-.filter-button:hover, .filter-button:focus {
-    background: var(--active-hover-clr);
-    color: #FFFFFF;
-}
-
-/*
-
-
-
-*/
