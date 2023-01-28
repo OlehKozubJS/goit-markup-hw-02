@@ -131,7 +131,7 @@ button {
 /* Sections settings */
 
 .order-section, .footer-section {
-    background-color: var(--headline-clr);
+    background: var(--headline-clr);
 }
 
 .footer-text {
