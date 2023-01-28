@@ -9,6 +9,13 @@
     --accent-and-footer-text-clr: #E7E9FC;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
 
 /* Common style settings */
 
@@ -107,23 +114,6 @@ button {
     color: #FFFFFF;
 }
 
-.section-headline {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 111%;
-}
-
-.card-headline {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 120%;
-}
-
-.section-headline,
-.card-headline {
-    color: var(--headline-clr);
-}
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -138,9 +128,9 @@ button {
  }
 
 
-/* Sections and cards settings */
+/* Sections settings */
 
-.main-section, .footer-section {
+.order-section, .footer-section {
     background-color: var(--headline-clr);
 }
 
@@ -148,9 +138,18 @@ button {
     color: var(--accent-and-footer-text-clr);
 }
 
+.section-headline {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111%;
+    color: var(--headline-clr);
+}
+
 .hero-section {
     background: var(--light-backgrounds-clr);
 } 
+
+/* Card settings */
 
 .hero-card {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -159,4 +158,11 @@ button {
 
 .product-card {
     border: 1px solid var(--accent-and-footer-text-clr);
+}
+
+.card-headline {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    color: var(--headline-clr);
 }
