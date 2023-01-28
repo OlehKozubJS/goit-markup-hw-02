@@ -1,16 +1,16 @@
 :root {
     --button-clr: #4D5AE5;
     --active-hover-clr: #404BBF;
-    --headline-clr: #2E2F42;
     --common-text-clr: #434455;
-    --accent-footer-text-clr: #E7E9FC;
+    --headline-clr: #2E2F42;
     --light-backgrounds-clr: #F4F4FD;
+    --accent-and-footer-text-clr: #E7E9FC;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #434455;
+    color: var(--common-text-clr);
 }
 
 .logo {
@@ -20,38 +20,38 @@ body {
 }
 
 .logo-left {
-    color: #4D5AE5;
+    color: var(--button-clr);
 }
 
 .logo-right-header {
-    color: #2E2F42;
+    color: var(--headline-clr);
 }
 
 .logo-right-footer {
-    color: #F4F4FD;
+    color: var(--light-backgrounds-clr);
 }
 
 .navigation a {
     font-weight: 500;
-    color: #2E2F42;
+    color: var(--button-clr);
 }
 
 .navigation a:hover, .contacts a:hover, .contacts a:focus {
-    color: #404BBF;
+    color: var(--active-hover-clr);
 }
 
 .main-section, .footer-section {
-    background-color: #2E2F42;
+    background-color: var(--headline-clr);
 }
 
 .main-headline {
     font-weight: 700;
     line-height: 107%;
-    color: white;
+    color: #FFFFFF;
 }
 
 .order-service-button {
-    background: #4D5AE5;
+    background: var(--button-clr);
     font-weight: 500;
     line-height: 150%;
     color: #FFFFFF;
@@ -59,7 +59,7 @@ body {
 }
 
 .order-service-button:hover {
-    background: #404BBF;
+    background: var(--active-hover-clr);
 }
 
 .section-headline {
@@ -73,7 +73,7 @@ body {
 }
 
 .section-headline, .item-headline {
-    color: #2E2F42;
+    color: var(--headline-clr);
 }
 
 .text {
@@ -81,19 +81,19 @@ body {
 }
 
 .footer-text {
-    color: #E7E9FC;
+    color: var(--accent-and-footer-text-clr);
 }
 
 .filter-button {
     font-weight: 500;
     line-height: 150%;
     background: #F4F4FD;
-    color: #4D5AE5;
+    color: var(--button-clr);
 }
 
 .filter-button:active {
-    background: #404BBF;
-    color: white;
+    background: var(--active-hover-clr);
+    color: #FFFFFF;
 }
 
 /*
