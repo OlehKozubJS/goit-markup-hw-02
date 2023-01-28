@@ -17,6 +17,7 @@ li {
     list-style: none;
 }
 
+
 /* Common style settings */
 
 body {
@@ -76,9 +77,8 @@ body {
 button {
     font-family: inherit;
     font-weight: 500;
-    line-height: inherit;
-    border-radius: 4px;
     letter-spacing: 0.04em;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ button {
 
 .order-service-button:hover,
 .order-service-button:focus {
-    background: var(--active-hover-clr);
+    background: var(--hover-focus-clr);
 }
 
 .filter-button {
