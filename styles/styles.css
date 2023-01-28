@@ -73,7 +73,6 @@ li {
 
 .navigation-link:hover,
 .navigation-link:focus {
-    color: var(--hover-focus-clr);
     text-decoration: underline;
 }
 
