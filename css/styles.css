@@ -89,6 +89,7 @@ button {
     letter-spacing: 0.04em;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
 .order-service-button {
