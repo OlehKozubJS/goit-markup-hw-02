@@ -101,18 +101,18 @@ button {
 
 .order-service-button:hover,
 .order-service-button:focus {
-    background: var(--hover-focus-clr);
+    background-color: var(--hover-focus-clr);
 }
 
 .filter-button {
-    background: var(--light-backgrounds-clr);
+    background-color: var(--light-backgrounds-clr);
     border: 1px solid var(--accent-and-footer-text-clr);
     color: var(--button-clr);
 }
 
 .filter-button:hover,
 .filter-button:focus {
-    background: var(--hover-focus-clr);
+    background-color: var(--hover-focus-clr);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--common-white-color);
 }
@@ -144,7 +144,7 @@ button {
 /* Sections settings */
 
 .order-section, .footer-section {
-    background: var(--headline-clr);
+    background-color: var(--headline-clr);
 }
 
 .footer-text {
@@ -159,7 +159,7 @@ button {
 }
 
 .hero-section {
-    background: var(--light-backgrounds-clr);
+    background-color: var(--light-backgrounds-clr);
 } 
 
 
